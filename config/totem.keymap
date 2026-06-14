@@ -141,7 +141,7 @@
                 <&macro_press>,
                 <&mo MACRO_PLACEHOLDER &macro_param_1to1>,
                 <&macro_pause_for_release>,
-                <&macro_press>,
+                <&macro_release>,
                 <&mo MACRO_PLACEHOLDER &kp RALT &mo 7>;
 
             label = "ALT_HOLD_MO";
