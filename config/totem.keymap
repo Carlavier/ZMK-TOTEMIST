@@ -5,7 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1800
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25
-
 #define BASE 0
 #define NAV  1
 #define SYM  2
@@ -255,7 +254,7 @@
 
             bindings = <
         &kp F2                &kp F3           &kp F4         &kp F5            &kp F6       &kp F7          &kp F8        &kp F9         &kp F10   &kp F11
-        &mo 5                 &kp LA(SPACE)    &kp LC(ENTER)  &kp HOME          &kp END      &none           &kp LEFT      &kp UP_ARROW   &kp DOWN  &kp RIGHT
+        &mo 5                 &kp LA(SPACE)    &kp LC(ENTER)  &kp HOME          &kp END      &kp DELETE      &kp LEFT      &kp UP_ARROW   &kp DOWN  &kp RIGHT
 &trans  &alt_trigger LS(TAB)  &kp LC(LS(TAB))  &kp LC(TAB)    &alt_trigger TAB  &kp LA(Z)    &kp F12         &kp LC(LEFT)  &kp LC(SPACE)  &none     &kp LC(RIGHT)  &trans
                                                &trans         &trans            &trans       &win_hold_mo 3  &kp RGUI      &trans
             >;
