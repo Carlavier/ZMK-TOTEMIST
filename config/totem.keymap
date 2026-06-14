@@ -28,7 +28,7 @@
         combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <19 18>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         combo_capslock {
@@ -39,37 +39,37 @@
         left_backet {
             bindings = <&kp LPAR>;
             key-positions = <13 12>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         right_bracket {
             bindings = <&kp RPAR>;
             key-positions = <17 16>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         left_curly {
             bindings = <&kp LBRC>;
             key-positions = <12 11>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         right_curly {
             bindings = <&kp RBRC>;
             key-positions = <18 17>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         left_square {
             bindings = <&kp LBKT>;
             key-positions = <21 22>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         right_square {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <29 30>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         tab {
@@ -81,26 +81,42 @@
         bt_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <15 16>;
+            layers = <3>;
         };
 
         bt_1 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <16 17>;
+            layers = <3>;
         };
 
         bt_2 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <17 18>;
+            layers = <3>;
         };
 
         bt_3 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <18 19>;
+            layers = <3>;
         };
 
         bt_4 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <19 31>;
+            layers = <3>;
+        };
+
+        quoted {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <28 29>;
+            layers = <1 0>;
+        };
+
+        capslocks {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <20 31>;
         };
     };
 
