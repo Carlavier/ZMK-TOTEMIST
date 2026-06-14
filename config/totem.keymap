@@ -110,12 +110,6 @@
             layers = <3>;
         };
 
-        quoted {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <28 29>;
-            layers = <1 0>;
-        };
-
         capslocks {
             bindings = <&kp CAPSLOCK>;
             key-positions = <20 31>;
