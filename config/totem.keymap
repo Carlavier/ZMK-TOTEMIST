@@ -74,12 +74,6 @@
             layers = <0 1>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-            layers = <1>;
-        };
-
         bt_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <15 16>;
@@ -135,7 +129,7 @@
 
         dollar_combo {
             bindings = <&kp DOLLAR>;
-            key-positions = <21 22>;
+            key-positions = <11 10>;
             layers = <1>;
         };
     };
