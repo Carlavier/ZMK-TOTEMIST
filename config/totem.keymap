@@ -120,6 +120,24 @@
             key-positions = <22 23 24>;
             layers = <2>;
         };
+
+        plus_combo {
+            bindings = <&kp PLUS>;
+            key-positions = <23 24>;
+            layers = <1>;
+        };
+
+        asterisk_combo {
+            bindings = <&kp STAR>;
+            key-positions = <22 23>;
+            layers = <1>;
+        };
+
+        dollar_combo {
+            bindings = <&kp DOLLAR>;
+            key-positions = <21 22>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -233,7 +251,7 @@
 
             bindings = <
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5    &kp N6         &kp N7     &kp N8            &kp N9                 &kp N0
-        &kp PLUS      &kp PERCENT   &kp TILDE     &kp UNDER       &kp STAR        &kp MINUS      &kp EQUAL  &kp SINGLE_QUOTE  &kp LS(DOUBLE_QUOTES)  &trans
+        &kp TAB       &kp PERCENT   &kp TILDE     &kp UNDER       &kp PLUS        &kp MINUS      &kp EQUAL  &kp SINGLE_QUOTE  &kp LS(DOUBLE_QUOTES)  &trans
 &trans  &kp EXCL      &kp HASH      &kp PIPE      &kp AMPS        &kp AT          &kp BACKSLASH  &kp GRAVE  &trans            &trans                 &trans  &trans
                                     &trans        &win_hold_mo 3  &trans          &trans         &trans     &trans
             >;
@@ -253,10 +271,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp F2                &kp F3           &kp F4         &kp F5            &kp F6       &kp F7          &kp F8        &kp F9         &kp F10   &kp F11
-        &mo 5                 &kp LA(SPACE)    &kp LC(ENTER)  &kp HOME          &kp END      &kp DELETE      &kp LEFT      &kp UP_ARROW   &kp DOWN  &kp RIGHT
-&trans  &alt_trigger LS(TAB)  &kp LC(LS(TAB))  &kp LC(TAB)    &alt_trigger TAB  &kp LA(Z)    &kp F12         &kp LC(LEFT)  &kp LC(SPACE)  &none     &kp LC(RIGHT)  &trans
-                                               &trans         &trans            &trans       &win_hold_mo 3  &kp RGUI      &trans
+        &kp F2                &kp F3         &kp F4             &kp F5            &kp F6       &kp F7          &kp F8        &kp F9         &kp F10   &kp F11
+        &mo 5                 &kp LA(SPACE)  &kp LC(ENTER)      &kp HOME          &kp END      &kp DELETE      &kp LEFT      &kp UP_ARROW   &kp DOWN  &kp RIGHT
+&trans  &alt_trigger LS(TAB)  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &alt_trigger TAB  &kp LA(Z)    &kp F12         &kp LC(LEFT)  &kp LC(SPACE)  &none     &kp LC(RIGHT)  &trans
+                                             &trans             &trans            &trans       &win_hold_mo 3  &kp RGUI      &trans
             >;
         };
 
