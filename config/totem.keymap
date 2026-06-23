@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1650
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 22
 #define BASE 0
 #define NAV  1
 #define SYM  2
