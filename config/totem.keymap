@@ -27,12 +27,6 @@
             bindings = <&panic_esc>;
         };
 
-        combo_backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <19 18>;
-            layers = <0 1>;
-        };
-
         combo_capslock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <20 31>;
@@ -132,6 +126,16 @@
             key-positions = <11 10>;
             layers = <1>;
         };
+
+        enter_combo_1 {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18>;
+        };
+
+        enter_combo_2 {
+            bindings = <&kp ENTER>;
+            key-positions = <11 12 13>;
+        };
     };
 
     macros {
@@ -223,10 +227,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E      &kp R           &kp T        &kp Y  &kp U    &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D      &kp F           &kp G        &kp H  &kp J    &kp K      &kp L    &kp SEMI
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V           &kp B        &kp N  &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LCTRL  &alt_hold_mo 2  &kp SPACE    &mo 1  &kp RET  &kp LALT
+                &kp Q  &kp W  &kp E      &kp R           &kp T        &kp Y  &kp U          &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D      &kp F           &kp G        &kp H  &kp J          &kp K      &kp L    &kp SEMI
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V           &kp B        &kp N  &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &kp LCTRL  &alt_hold_mo 2  &kp SPACE    &mo 1  &kp BACKSPACE  &kp LALT
             >;
         };
 
