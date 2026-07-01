@@ -109,8 +109,8 @@
             layers = <2>;
         };
 
-        plus_combo {
-            bindings = <&kp PLUS>;
+        caret_combo {
+            bindings = <&kp CARET>;
             key-positions = <23 24>;
             layers = <1>;
         };
