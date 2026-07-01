@@ -280,9 +280,9 @@
 
         utils_layer {
             bindings = <
-        &kp LC(NUMBER_1)     &kp LC(NUMBER_2)     &kp LC(NUMBER_3)     &kp LC(NUMBER_4)     &kp LC(N5)             &bt BT_CLR         &kp LC(LA(T))  &none     &kp C_VOLUME_UP    &win_trigger P
-        &win_trigger LC(N1)  &win_trigger LC(N2)  &win_trigger LC(N3)  &win_trigger LC(N4)  &win_trigger LC(N5)    &kp K_MUTE         &kp C_PREV     &kp C_PP  &kp C_VOLUME_DOWN  &kp C_NEXT
-&trans  &win_trigger LC(N6)  &win_trigger LC(N7)  &win_trigger LC(N8)  &win_trigger LC(N9)  &win_trigger LC(N0)    &kp LS(LA(LC(Q)))  &kp LC(HOME)   &none     &none              &none           &trans
+        &kp LC(NUMBER_1)     &kp LC(NUMBER_2)     &kp LC(NUMBER_3)     &kp LC(NUMBER_4)     &kp LC(N5)             &bt BT_CLR         &kp LC(LA(T))  &kp LC(HOME)  &kp C_VOLUME_UP    &win_trigger P
+        &win_trigger LC(N1)  &win_trigger LC(N2)  &win_trigger LC(N3)  &win_trigger LC(N4)  &win_trigger LC(N5)    &kp K_MUTE         &kp C_PREV     &kp C_PP      &kp C_VOLUME_DOWN  &kp C_NEXT
+&trans  &win_trigger LC(N6)  &win_trigger LC(N7)  &win_trigger LC(N8)  &win_trigger LC(N9)  &win_trigger LC(N0)    &kp LS(LA(LC(Q)))  &kp LC(HOME)   &none         &none              &none           &trans
                                                   &none                &trans               &none                  &trans             &none          &none
             >;
         };
