@@ -138,6 +138,18 @@
             key-positions = <11 12 13>;
             layers = <1 0>;
         };
+
+        left_square_2 {
+            bindings = <&kp LBKT>;
+            key-positions = <11 13>;
+            layers = <0 1>;
+        };
+
+        right_square_2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <16 18>;
+            layers = <0 1>;
+        };
     };
 
     macros {
