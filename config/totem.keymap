@@ -36,36 +36,28 @@
             bindings = <&kp LPAR>;
             key-positions = <13 12>;
             layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
 
         right_bracket {
             bindings = <&kp RPAR>;
             key-positions = <17 16>;
             layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
 
         left_curly {
             bindings = <&kp LBRC>;
             key-positions = <12 11>;
             layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
 
         right_curly {
             bindings = <&kp RBRC>;
             key-positions = <18 17>;
             layers = <0 1>;
-        };
-
-        left_square {
-            bindings = <&kp LBKT>;
-            key-positions = <21 22>;
-            layers = <0 1>;
-        };
-
-        right_square {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <29 30>;
-            layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
 
         bt_0 {
@@ -113,44 +105,49 @@
             bindings = <&kp CARET>;
             key-positions = <23 24>;
             layers = <1>;
+            require-prior-idle-ms = <1>;
         };
 
         asterisk_combo {
             bindings = <&kp STAR>;
             key-positions = <22 23>;
             layers = <1>;
+            require-prior-idle-ms = <1>;
         };
 
         dollar_combo {
             bindings = <&kp DOLLAR>;
             key-positions = <11 10>;
             layers = <1>;
+            require-prior-idle-ms = <1>;
         };
 
         enter_combo_1 {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
             layers = <0 1>;
-            require-prior-idle-ms = <(-1)>;
+            require-prior-idle-ms = <1>;
         };
 
         enter_combo_2 {
             bindings = <&kp ENTER>;
             key-positions = <11 12 13>;
             layers = <1 0>;
-            require-prior-idle-ms = <(-1)>;
+            require-prior-idle-ms = <1>;
         };
 
         left_square_2 {
             bindings = <&kp LBKT>;
             key-positions = <11 13>;
             layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
 
         right_square_2 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <16 18>;
             layers = <0 1>;
+            require-prior-idle-ms = <1>;
         };
     };
 
