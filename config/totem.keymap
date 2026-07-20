@@ -131,12 +131,14 @@
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
             layers = <0 1>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         enter_combo_2 {
             bindings = <&kp ENTER>;
             key-positions = <11 12 13>;
             layers = <1 0>;
+            require-prior-idle-ms = <(-1)>;
         };
 
         left_square_2 {
