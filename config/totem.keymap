@@ -288,9 +288,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp F2                &kp F3         &kp F4             &kp F5            &kp F6       &kp F7          &kp F8        &kp F9         &kp F10   &kp F11
-        &mo 5                 &kp LA(SPACE)  &kp LC(ENTER)      &kp HOME          &kp END      &kp DELETE      &kp LEFT      &kp UP_ARROW   &kp DOWN  &kp RIGHT
-&trans  &alt_trigger LS(TAB)  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &alt_trigger TAB  &kp LA(Z)    &kp F12         &kp LC(LEFT)  &kp LC(SPACE)  &none     &kp LC(RIGHT)  &trans
+        &kp F2                &kp F3         &kp F4             &kp F5            &kp F6       &kp F7          &kp F8        &kp F9         &kp F10        &kp F11
+        &mo 5                 &kp LA(SPACE)  &kp LC(ENTER)      &kp HOME          &kp END      &kp DELETE      &kp LEFT      &kp UP_ARROW   &kp DOWN       &kp RIGHT
+&trans  &alt_trigger LS(TAB)  &kp LC(PG_UP)  &kp LC(PAGE_DOWN)  &alt_trigger TAB  &kp LA(Z)    &kp F12         &kp LC(LEFT)  &kp LC(SPACE)  &kp LG(SPACE)  &kp LC(RIGHT)  &trans
                                              &to 6              &trans            &trans       &win_hold_mo 3  &kp RGUI      &trans
             >;
         };
